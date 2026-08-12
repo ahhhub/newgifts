@@ -1,0 +1,42 @@
+# ========================================
+# NewGifts - 新手礼包插件配置文件
+# ========================================
+
+# 存储方式: yaml (配置文件存储) 或 database (数据库存储)
+# 默认使用 database 方式，从 本地数据库 读取礼包内容
+# 若使用 database，可通过 /gifts gui 可视化编辑礼包
+storage:
+  type: database
+
+# 数据库配置 (仅当 storage.type 为 database 时生效)
+database:
+  # 数据库类型: sqlite 或 mysql
+  type: sqlite
+
+  # MySQL 配置
+  mysql:
+    host: localhost
+    port: 3306
+    database: minecraft
+    username: root
+    password: ""
+
+  # SQLite 配置
+  sqlite:
+    file: gifts.db
+
+# 提示消息配置
+messages:
+  prefix: "&8[&6新手礼包&8] &r"
+  first-join-gift: "&a欢迎来到服务器！新手礼包已发放到您的背包！"
+  first-join-full: "&c您的背包空间不足，新手礼包未能发放！请清理背包后使用 &e/gifts load &c重新领取。"
+  gift-load-success: "&a新手礼包已成功发放！"
+  gift-load-fail: "&c发放失败，部分物品可能无法放入背包，请检查背包空间。"
+  gift-no-items: "&c当前没有配置新手礼包物品，请联系管理员。"
+  gui-unavailable: "&c打开面板失败，当前采用配置文件存储数据，如需使用GUI，请调整存储方式为数据库。"
+  gui-title: "新手礼包编辑"
+  no-permission: "&c你没有权限使用此命令！"
+  reload-success: "&a配置已重新加载！共计 &e{count} &a件物品。"
+  reload-time-success: "&a所有玩家的游玩时间已重置，重新进入服务器即可领取新手礼包。"
+  player-only: "&c该命令只能由玩家执行！"
+  unknown-command: "&c未知子命令，请使用 /gifts gui|reload|load"

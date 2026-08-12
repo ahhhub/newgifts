@@ -1,0 +1,80 @@
+# ========================================
+# 新手礼包物品配置
+# ========================================
+# 最多支持 27 个物品（编号 1-27）
+# 每个物品支持以下字段：
+#   type: 物品材质 (必填)
+#   amount: 物品数量 (默认1)
+#   name: 物品显示名称 (支持颜色代码)
+#   lore: 物品描述 (支持颜色代码，多行)
+#   enchantments: 附魔 (格式: 附魔名:等级)
+#   flags: 物品标识 (如 HIDE_ENCHANTS)
+#   custom-model-data: 自定义模型数据
+#   unbreakable: 是否不可破坏
+# ========================================
+
+gifts:
+  '1':
+    type: DIAMOND_SWORD
+    amount: 1
+    name: '&6新手之剑'
+    lore:
+      - '&7一把陪伴你起步的宝剑'
+    enchantments:
+      SHARPNESS: 3
+      UNBREAKING: 2
+    flags:
+      - HIDE_ENCHANTS
+    unbreakable: true
+
+  '2':
+    type: DIAMOND_PICKAXE
+    amount: 1
+    name: '&6新手之镐'
+    lore:
+      - '&7一把高效的工具镐'
+    enchantments:
+      EFFICIENCY: 3
+      UNBREAKING: 2
+
+  '3':
+    type: DIAMOND_AXE
+    amount: 1
+    name: '&6新手之斧'
+
+  '4':
+    type: DIAMOND_SHOVEL
+    amount: 1
+
+  '5':
+    type: BREAD
+    amount: 32
+    name: '&e新鲜面包'
+
+  '6':
+    type: OAK_LOG
+    amount: 64
+
+  '7':
+    type: TORCH
+    amount: 16
+
+  '8':
+    type: LEATHER_HELMET
+    amount: 1
+
+  '9':
+    type: LEATHER_CHESTPLATE
+    amount: 1
+
+  '10':
+    type: LEATHER_LEGGINGS
+    amount: 1
+
+  '11':
+    type: LEATHER_BOOTS
+    amount: 1
+
+  '12':
+    type: SHIELD
+    amount: 1

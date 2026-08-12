@@ -1,0 +1,22 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Plugin runtime data (not part of source)
+plugins/
+*.db
+
+# Maven dependency-reduced POM
+dependency-reduced-pom.xml

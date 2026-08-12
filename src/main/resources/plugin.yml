@@ -1,0 +1,31 @@
+name: NewGifts
+version: 1.0.0
+main: com.weiding.gifts.Main
+api-version: "1.21"
+author: Weiding
+description: 新手礼包发放插件
+website: https://github.com/ahhhub/newgifts
+
+commands:
+  gifts:
+    description: 新手礼包主命令
+    usage: /gifts <gui|reload|load> [time]
+    permission: gifts.command
+    permission-message: §c你没有权限使用此命令！
+
+permissions:
+  gifts.command:
+    description: 使用 /gifts 命令的权限
+    default: true
+  gifts.command.gui:
+    description: 使用 /gifts gui 打开礼包编辑GUI
+    default: op
+  gifts.command.reload:
+    description: 使用 /gifts reload 重载配置
+    default: op
+  gifts.command.reload.time:
+    description: 使用 /gifts reload time 重置玩家时间
+    default: op
+  gifts.command.load:
+    description: 使用 /gifts load 领取礼包
+    default: true
