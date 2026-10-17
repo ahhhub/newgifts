@@ -348,7 +348,7 @@ first-join-gift: "&a&l欢迎！&r &e新手礼包已发放！"
 ### 项目结构
 
 ```
-src/main/java/com/weiding/gifts/
+src/main/java/top/nekolove/newgifts/
 ├── Main.java                  # 插件主类，生命周期管理
 ├── command/
 │   └── GiftsCommand.java      # /gifts 命令处理器 + Tab补全
@@ -385,7 +385,7 @@ mvn clean package
 | SQLite JDBC | 3.46.1.0 | SQLite 驱动（shaded） |
 | MySQL Connector/J | 9.1.0 | MySQL 驱动（shaded） |
 
-> JDBC 驱动通过 `maven-shade-plugin` 打包进 JAR，并重定位到 `com.weiding.gifts.libs.*` 以避免类冲突。
+> JDBC 驱动通过 `maven-shade-plugin` 打包进 JAR，并重定位到 `top.nekolove.newgifts.libs.*` 以避免类冲突。
 
 ---
 

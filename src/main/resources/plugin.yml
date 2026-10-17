@@ -1,6 +1,6 @@
 name: NewGifts
-version: 1.0.0
-main: com.weiding.gifts.Main
+version: '1.1.0'
+main: top.nekolove.newgifts.Main
 api-version: "1.21"
 author: Weiding
 description: 新手礼包发放插件

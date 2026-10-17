@@ -1,6 +1,6 @@
-package com.weiding.gifts.command;
+package top.nekolove.newgifts.command;
 
-import com.weiding.gifts.Main;
+import top.nekolove.newgifts.Main;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;

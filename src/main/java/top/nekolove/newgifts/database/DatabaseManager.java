@@ -1,6 +1,6 @@
-package com.weiding.gifts.database;
+package top.nekolove.newgifts.database;
 
-import com.weiding.gifts.Main;
+import top.nekolove.newgifts.Main;
 
 import java.io.File;
 import java.sql.Connection;
@@ -46,7 +46,7 @@ public class DatabaseManager {
     private void initSQLite() throws SQLException {
         // 由于 shade relocation，需要显式注册驱动
         try {
-            Class.forName("com.weiding.gifts.libs.sqlite.JDBC");
+            Class.forName("top.nekolove.newgifts.libs.sqlite.JDBC");
         } catch (ClassNotFoundException e) {
             throw new SQLException("SQLite 驱动加载失败", e);
         }
@@ -67,7 +67,7 @@ public class DatabaseManager {
     private void initMySQL() throws SQLException {
         // 由于 shade relocation，需要显式注册驱动
         try {
-            Class.forName("com.weiding.gifts.libs.mysql.cj.jdbc.Driver");
+            Class.forName("top.nekolove.newgifts.libs.mysql.cj.jdbc.Driver");
         } catch (ClassNotFoundException e) {
             throw new SQLException("MySQL 驱动加载失败", e);
         }

@@ -1,6 +1,6 @@
-package com.weiding.gifts.gui;
+package top.nekolove.newgifts.gui;
 
-import com.weiding.gifts.Main;
+import top.nekolove.newgifts.Main;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.serializer.legacy.LegacyComponentSerializer;
 import org.bukkit.Bukkit;

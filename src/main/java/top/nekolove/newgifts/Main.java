@@ -1,13 +1,13 @@
-package com.weiding.gifts;
+package top.nekolove.newgifts;
 
-import com.weiding.gifts.command.GiftsCommand;
-import com.weiding.gifts.config.ConfigManager;
-import com.weiding.gifts.database.DatabaseManager;
-import com.weiding.gifts.gui.GiftEditorGUI;
-import com.weiding.gifts.listener.PlayerJoinListener;
-import com.weiding.gifts.storage.DatabaseGiftStorage;
-import com.weiding.gifts.storage.GiftStorage;
-import com.weiding.gifts.storage.YamlGiftStorage;
+import top.nekolove.newgifts.command.GiftsCommand;
+import top.nekolove.newgifts.config.ConfigManager;
+import top.nekolove.newgifts.database.DatabaseManager;
+import top.nekolove.newgifts.gui.GiftEditorGUI;
+import top.nekolove.newgifts.listener.PlayerJoinListener;
+import top.nekolove.newgifts.storage.DatabaseGiftStorage;
+import top.nekolove.newgifts.storage.GiftStorage;
+import top.nekolove.newgifts.storage.YamlGiftStorage;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.Objects;

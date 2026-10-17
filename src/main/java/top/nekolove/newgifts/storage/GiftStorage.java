@@ -1,4 +1,4 @@
-package com.weiding.gifts.storage;
+package top.nekolove.newgifts.storage;
 
 import org.bukkit.inventory.ItemStack;
 

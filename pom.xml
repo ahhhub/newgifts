@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.weiding.gifts</groupId>
+    <groupId>top.nekolove</groupId>
     <artifactId>NewGifts</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <packaging>jar</packaging>
 
     <name>NewGifts</name>
@@ -83,11 +83,11 @@
                             <relocations>
                                 <relocation>
                                     <pattern>org.sqlite</pattern>
-                                    <shadedPattern>com.weiding.gifts.libs.sqlite</shadedPattern>
+                                    <shadedPattern>top.nekolove.newgifts.libs.sqlite</shadedPattern>
                                 </relocation>
                                 <relocation>
                                     <pattern>com.mysql</pattern>
-                                    <shadedPattern>com.weiding.gifts.libs.mysql</shadedPattern>
+                                    <shadedPattern>top.nekolove.newgifts.libs.mysql</shadedPattern>
                                 </relocation>
                             </relocations>
                             <transformers>

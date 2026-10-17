@@ -1,7 +1,7 @@
-package com.weiding.gifts.storage;
+package top.nekolove.newgifts.storage;
 
-import com.weiding.gifts.Main;
-import com.weiding.gifts.database.DatabaseManager;
+import top.nekolove.newgifts.Main;
+import top.nekolove.newgifts.database.DatabaseManager;
 import org.bukkit.inventory.ItemStack;
 
 import java.sql.Connection;

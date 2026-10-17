@@ -1,6 +1,6 @@
-package com.weiding.gifts.listener;
+package top.nekolove.newgifts.listener;
 
-import com.weiding.gifts.Main;
+import top.nekolove.newgifts.Main;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
